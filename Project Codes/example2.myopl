@@ -1,0 +1,18 @@
+VAR list1 = [1,2,3,4]
+VAR list2 = [1,2,3,4,5,6,7,8,9]
+
+
+FUN make_changes(list)
+    
+    IF (LEN(list) <= 7) THEN APPEND(list,2^5)
+
+    IF (LEN(list) > 7) THEN POP(list,(LEN(list)-1))
+
+    RETURN list
+END
+
+PRINT("LIST1:")
+PRINT(make_changes(list1))
+
+PRINT("LIST2:")
+PRINT(make_changes(list2))

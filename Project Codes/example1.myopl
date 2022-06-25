@@ -1,0 +1,28 @@
+FUN plus_ing(prefix) -> prefix + "ing"
+
+FUN join(elements, separator)
+	VAR result = ""
+	VAR length = LEN(elements)
+
+	FOR x = 0 TO length THEN
+		VAR result = result + elements/x
+		IF x != length - 1 THEN VAR result = result + separator
+	END
+
+	RETURN result
+END
+
+FUN map(elements, func)
+	VAR new_elements = []
+
+	FOR x = 0 TO LEN(elements) THEN
+		APPEND(new_elements, func(elements/x))
+	END
+
+	RETURN new_elements
+END
+
+FOR x = 0 TO 5 THEN
+	PRINT(join(map(["play", "listen"], plus_ing), ", "))
+END
+

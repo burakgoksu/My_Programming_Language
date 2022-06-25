@@ -1,0 +1,28 @@
+VAR string1 = "Hello World"
+VAR string2 = " And Manisa"
+
+PRINT("FIRST STATE:")
+PRINT(string1 + string2)
+
+#string2 value was changed
+VAR string2 = " And Izmir"
+
+PRINT("SECOND STATE:")
+PRINT(string1 + string2)
+
+PRINT("")
+
+VAR list_1 = [0,1]
+VAR list_2 = [2,3]
+VAR list_3 = list_1 + list_2
+
+PRINT("FIRST STATE:")
+PRINT(list_3)
+
+#list_2 reference was not changed
+VAR list_2 = [4,5]
+
+PRINT("SECOND STATE:")
+PRINT(list_3)
+
+
