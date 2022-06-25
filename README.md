@@ -4,7 +4,9 @@ Design Your Own Programming Languag
 I design a new project language with python 3.9:
 
 •	The project was coded on Visual Studio Code
+
 •	The grammar of the language is in BNF format.
+
 •	The project has three layers.
 •	Lexer and Parser classes was coded in this project.
 •	Constant, Errors, Position, Token, Nodes, Values, List, Context, Symbol Table, Interpreter structures was design in this programming language.
