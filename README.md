@@ -1,7 +1,7 @@
 # My_Programming_Language
-Design Your Own Programming Languag
+Design Your Own Programming Language
 
-I design a new project language with python 3.9:
+# I design a new programming language with python 3.9:
 
 •	The project was coded on Visual Studio Code
 
@@ -17,7 +17,7 @@ I design a new project language with python 3.9:
 
 
 
-Information of the Programming Language:
+# Information of the Programming Language:
 
 •	The programming language has a comment line and is created with the # sign.
 
